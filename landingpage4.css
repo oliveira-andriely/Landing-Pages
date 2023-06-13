@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-white: #fff8f8;
+    --color-dark: #000000;
+    --color-purple: #7f38d1;
+    --color-dark2: #c9c5cc;
+}
+
+body{
+    background-color: var(--color-purple);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    background-color: var(--color-white);
+    height: 65px;
+    box-shadow: 1px 2px 4px var(--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: var(--color-dark);
+}
+
+a:hover{
+    transition: .4s;
+    color: var(--color-dark2);
+}
+
+.logo{
+    width: 45px;
+    height: 28px;   
+}
+
+@keyframes animmaçao {
+    from { border-bottom: 2px solid var(--color-dark); }
+    to {border-bottom: 1px solid var(--color-purple);   }
+}
+
+.login{
+    color: var(--color-purple);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-dark);
+
+   
+    
+}
+
+.login:hover{
+    transition: 2s;
+    animation-name: animaçao;
+    animation-duration: 5s;
+    animation-delay: 2s;
+
+}
+ 
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    background-color: var(--color-white);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: justify;
+}
+
+form{
+    padding: 20px;
+    
+}
+
+input{
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--color-dark);
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+input:hover{
+    border-bottom: 1px solid var(--color-purple);
+    transition: .5s;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 35px;
+    background-color: var(--color-purple);
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: .3s;
+    color: var(--color-white);
+    
+
+}
+
+.input{
+    padding: 15px;
+}
+
+legend {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    color: red;
+    
+}
+
+
